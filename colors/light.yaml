@@ -1,0 +1,8 @@
+light:
+  name: Foundation Light
+  colors:
+    base03: ffffff
+    base02: f6f6f6
+    base01: e9e9e9
+    blue: 3485f7
+    none: 00000000

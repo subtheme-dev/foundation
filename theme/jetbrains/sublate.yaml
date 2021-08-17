@@ -1,0 +1,5 @@
+sublate:
+  path: .
+  render:
+    - resources/schemes/*.xml
+    - src/*.json

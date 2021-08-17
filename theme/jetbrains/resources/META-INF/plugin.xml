@@ -1,0 +1,37 @@
+<idea-plugin>
+  <id>foundation</id>
+  <name>Foundation Theme</name>
+  <vendor url="https://subtheme.dev/">Subtheme</vendor>
+  <version>1.1</version>
+
+  <depends>com.intellij.modules.lang</depends>
+  <idea-version since-build="191.0"/>
+
+  <change-notes><![CDATA[
+    <h3>1.1</h3>
+    <ul>
+      <li>Minor update to plugin metadata</li>
+    </ul>
+    <h3>1.0</h3>
+    <ul>
+      <li>Added foundation theme</li>
+    </ul>
+  ]]>
+  </change-notes>
+
+  <description><![CDATA[
+    A standard design with a dark and light theme.
+    <br/><br/>
+    Contributions are welcome with <a href="https://github.com/subtheme-dev/foundation">GitHub</a>. Screenshots taken with <a href="https://plugins.jetbrains.com/plugin/10044-atom-material-icons">Atom Material Icons</a> and <a href="https://www.typography.com/fonts/operator/styles">Operator Mono</a>.
+    <br/><br/>
+    <img src="https://raw.githubusercontent.com/subtheme-dev/foundation/master/theme/jetbrains/screenshots/foundation-light-small.png" border="0" width="360">
+    <br/>
+    <img src="https://raw.githubusercontent.com/subtheme-dev/foundation/master/theme/jetbrains/screenshots/foundation-dark-small.png" border="0" width="360">
+  ]]>
+  </description>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="fedef890-2976-4630-9f82-69069d21fca5" path="/light.theme.json"/>
+    <themeProvider id="03fec05b-d75d-470d-a213-3fe1c42098a8" path="/dark.theme.json"/>
+  </extensions>
+</idea-plugin>

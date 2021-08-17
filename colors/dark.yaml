@@ -1,0 +1,9 @@
+dark:
+  name: Foundation Dark
+  colors:
+    base03: 131517
+    base02: 1c1e20
+    base01: 252729
+    base00: 323436
+    blue: 3485f7
+    none: 00000000

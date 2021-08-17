@@ -1,0 +1,104 @@
+{
+  "_": "{% set theme=light %}",
+  "name": "{{theme.name}}",
+  "dark": false,
+  "author": "Subtheme",
+  "editorScheme": "/schemes/light.xml",
+  "ui": {
+    "*": {
+      "background": "{{theme.colors.base03}}",
+      "borderColor": "{{theme.colors.base01}}",
+      "disabledBackground": "{{theme.colors.base02}}",
+      "disabledBorderColor": "{{theme.colors.base01}}",
+      "inactiveBackground": "{{theme.colors.base01}}",
+      "lightSelectionBackground": "{{theme.colors.base01}}",
+      "lightSelectionInactiveBackground": "{{theme.colors.base02}}",
+      "lineSeparatorColor": "{{theme.colors.base01}}",
+      "selectionBackground": "{{theme.colors.blue}}",
+      "selectionInactiveBackground": "{{theme.colors.base01}}",
+      "separatorColor": "{{theme.colors.base01}}",
+      "separatorForeground": "{{theme.colors.base01}}",
+      "underlineColor": "{{theme.colors.blue}}",
+      "underlineHeight": 2
+    },
+    "Borders": {
+      "color": "{{theme.colors.base01}}",
+      "ContrastBorderColor": "{{theme.colors.base01}}"
+    },
+    "Button": {
+      "arc": 8,
+      "default": {
+        "endBackground": "{{theme.colors.blue}}",
+        "endBorderColor": "00000000",
+        "focusedBorderColor": "{{theme.colors.blue}}",
+        "startBackground": "{{theme.colors.blue}}",
+        "startBorderColor": "00000000"
+      },
+      "endBackground": "{{theme.colors.base01}}",
+      "endBorderColor": "{{theme.colors.base01}}",
+      "focusedBorderColor": "{{theme.colors.blue}}",
+      "shadowColor": "00000000",
+      "startBackground": "{{theme.colors.base01}}",
+      "startBorderColor": "{{theme.colors.base01}}"
+    },
+    "DefaultTabs": {
+      "background": "{{theme.colors.base02}}",
+      "hoverBackground": "{{theme.colors.base01}}",
+      "underlineColor": "{{theme.colors.blue}}",
+      "underlinedTabBackground": "{{theme.colors.base02}}",
+      "underlineHeight": 2
+    },
+    "EditorTabs": {
+      "background": "{{theme.colors.base02}}",
+      "inactiveMaskColor": "{{theme.colors.base02}}",
+      "inactiveUnderlineColor": "{{theme.colors.base02}}",
+      "underlinedTabBackground": "{{theme.colors.base03}}",
+      "underlineColor": "{{theme.colors.blue}}",
+      "underlineHeight": 2
+    },
+    "FileColor": {
+      "Yellow": "00000000"
+    },
+    "Popup": {
+      "background": "{{theme.colors.base01}}",
+      "Header": {
+        "activeBackground": "{{theme.colors.base01}}",
+        "inactiveBackground": "{{theme.colors.base01}}"
+      }
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "{{theme.colors.base01}}"
+      }
+    },
+    "SidePanel": {
+      "background": "{{theme.colors.base02}}"
+    },
+    "StatusBar": {
+      "borderColor": "{{theme.colors.base01}}",
+      "hoverBackground": "{{theme.colors.base01}}"
+    },
+    "TabbedPane": {
+      "hoverColor": "{{theme.colors.base01}}"
+    },
+    "Table": {
+      "stripeColor": "{{theme.colors.base02}}"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "{{theme.colors.base02}}",
+        "borderColor": "{{theme.colors.base01}}",
+        "inactiveBackground": "{{theme.colors.base02}}"
+      },
+      "Button": {
+        "hoverBackground": "{{theme.colors.base01}}",
+        "selectedBackground": "{{theme.colors.base01}}",
+        "selectedForeground": "000000"
+      }
+    },
+    "Tree": {
+      "background": "{{theme.colors.base02}}",
+      "rowHeight": 20
+    }
+  }
+}
