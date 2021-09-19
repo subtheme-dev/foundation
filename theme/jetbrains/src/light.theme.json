@@ -41,6 +41,9 @@
       "startBackground": "{{theme.colors.base01}}",
       "startBorderColor": "{{theme.colors.base01}}"
     },
+    "CompletionPopup": {
+      "selectionBackground": "{{theme.colors.base00}}"
+    },
     "DefaultTabs": {
       "background": "{{theme.colors.base02}}",
       "hoverBackground": "{{theme.colors.base01}}",
