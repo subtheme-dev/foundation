@@ -1,5 +1,3 @@
-sublate:
-  path: .
-  render:
-    - resources/schemes/*.xml
-    - src/*.json
+render:
+  - resources/schemes/*.xml
+  - src/*.json
