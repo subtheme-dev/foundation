@@ -1,6 +1,6 @@
 # Foundation
 
-A standard design with a dark and light theme.
+A modern design with a dark and light theme.
 
 Supported apps:
 - [JetBrains](theme/jetbrains)
