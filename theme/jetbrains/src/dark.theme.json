@@ -17,7 +17,7 @@
       "selectionBackground": "{{theme.colors.blue}}",
       "selectionInactiveBackground": "{{theme.colors.base00}}",
       "separatorColor": "{{theme.colors.base03}}",
-      "separatorForeground": "{{theme.colors.base03}}",
+      "separatorForeground": "{{theme.colors.base0}}",
       "underlineColor": "{{theme.colors.blue}}",
       "underlineHeight": 2
     },
