@@ -1,5 +1,4 @@
 {
-  "_": "{% set theme=light %}",
   "name": "{{theme.name}}",
   "dark": false,
   "author": "Subtheme",

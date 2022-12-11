@@ -1,4 +1,3 @@
-<!-- {% set theme=light %} -->
 <scheme name="{{theme.name}}" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="created">2019-06-07T17:20:09</property>

@@ -1,13 +1,13 @@
-dark:
-  name: Foundation Dark
-  colors:
-    base03: "#131517"
-    base02: "#1c1e20"
-    base01: "#252729"
-    base00: "#323436"
-    base0: "#dddddd"
-    base1: "#e9e9e9"
-    base2: "#f6f6f6"
-    base3: "#ffffff"
-    blue: "#3485f7"
-    none: "#00000000"
+id: dark 
+name: Foundation Dark
+colors:
+  base03: "#131517"
+  base02: "#1c1e20"
+  base01: "#252729"
+  base00: "#323436"
+  base0: "#dddddd"
+  base1: "#e9e9e9"
+  base2: "#f6f6f6"
+  base3: "#ffffff"
+  blue: "#3485f7"
+  none: "#00000000"
